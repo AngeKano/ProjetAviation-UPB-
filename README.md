@@ -6,11 +6,11 @@ project of the Team 7 Group II Polythechnique University of Bingerville (UPB)
 THEME: Gestion des Vols d'un Aeroport 
 
 MEMBERS: 
-  **Ange Kano (Leader)
-  **Willy Djejde
-  **Christ Kouassi
-  **Ibrahim Kouyaté
-  **Rachid Sawadogo
+  Ange Kano (Leader)
+  Willy Djejde
+  Christ Kouassi
+  Ibrahim Kouyaté
+  Rachid Sawadogo
 
 ### Description
 NOTE:
