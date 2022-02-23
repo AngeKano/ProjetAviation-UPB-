@@ -1,16 +1,18 @@
-# ProjetAviation-UPB-
+
+## Projet Aviation-Groupe7-UPB
 
 project of the Team 7 Group II Polythechnique University of Bingerville (UPB)
 
 THEME: Gestion des Vols d'un Aeroport 
 
 MEMBERS: 
-  Ange Kano (Leader)
-  Willy Djejde
-  Christ Kouassi
-  Ibrahim Kouyaté
-  Rachid Sawadogo
+  *Ange Kano (Leader)
+  *Willy Djejde
+  *Christ Kouassi
+  *Ibrahim Kouyaté
+  *Rachid Sawadogo
 
+### Description
 NOTE:
     The purpose of our Poject is creat a App or Deskop software for to manage all flight of airport 
 
