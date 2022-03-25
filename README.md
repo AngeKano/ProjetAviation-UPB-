@@ -37,6 +37,27 @@ OPTION APP:
        
 ATTENTION : It's some Option of App we Add another Option 
 
-By AngeKano 
+ACTIVITIES AND TASK
+
+ANGE KANO :
+  -UX/Ui Design
+  -Ergonomie des pages 
+  -Fonctionnalité et dependence SQL
+
+KOUASSI FRANCK :
+  -UX/UI Design
+
+KOUYATE IBRAHIM :
+  -Charger de la Documentation
+
+SAWADOGO RACHID :
+  -Gharger de la Documentation
+
+DJEDJE WILLY: 
+  -Charger des verification et corection des Bugs
+  -Charger de delivrer l'executable du projet
   
+By AngeKano 
+ 
+
  
