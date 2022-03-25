@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="winEnr" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="1054.0" style="-fx-background-color: #071a37;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.airLineDispoPisteController">
+   <children>
+      <Pane fx:id="winSpp" layoutX="132.0" layoutY="113.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="338.0" prefWidth="791.0" style="-fx-background-color: #05275a;">
+         <children>
+            <DatePicker layoutX="52.0" layoutY="208.0" promptText="12H30 26/02/2003" />
+            <Label layoutX="39.0" layoutY="29.0" text="Disponibilité de Piste" textFill="#dadada">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="50.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="136.0" text="N°vol" textFill="#dadada">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="178.0" text="Heure depart" textFill="#dadada">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField layoutX="104.0" layoutY="135.0" prefHeight="26.0" prefWidth="95.0" promptText="ABJ40" />
+            <Label layoutX="326.0" layoutY="140.0" text="Compagnie" textFill="#dadada">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField layoutX="450.0" layoutY="139.0" promptText="AIR Blocko" />
+            <Label layoutX="330.0" layoutY="189.0" text="N°Piste" textFill="#dadada">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField layoutX="420.0" layoutY="188.0" prefHeight="26.0" prefWidth="95.0" promptText="SER20" />
+            <Button layoutX="559.0" layoutY="277.0" mnemonicParsing="false" onMouseClicked="#btnValidation" text="Enregistrement">
+               <font>
+                  <Font name="Montserrat-Regular" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="680.0" layoutY="277.0" mnemonicParsing="false" onMouseClicked="#btnAnnule" style="-fx-background-color: red;" text="Annuler" textFill="#dadada">
+               <font>
+                  <Font name="Montserrat-Regular" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="437.0" layoutY="277.0" mnemonicParsing="false" onMouseClicked="#btnRstart" style="-fx-background-color: gray;" text="Reinitialisation">
+               <font>
+                  <Font name="Montserrat-Regular" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="729.0" layoutY="9.0" minWidth="53.0" mnemonicParsing="false" onMouseClicked="#btnClose" prefHeight="40.0" prefWidth="53.0" style="-fx-font-weight: 900; -fx-background-color: transparent;" text="X" textFill="#dadada">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

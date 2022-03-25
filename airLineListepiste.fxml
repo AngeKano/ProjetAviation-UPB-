@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="winLstPist" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="1054.0" style="-fx-background-color: #071a37;" stylesheets="@../application/styleCnx.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.airLineListepisteControllerN">
+   <children>
+      <Label layoutX="243.0" layoutY="29.0" text="Liste des Pistes" textFill="#dadada">
+         <font>
+            <Font name="Montserrat-Regular" size="37.0" />
+         </font>
+      </Label>
+      <TextField layoutX="727.0" layoutY="37.0" prefHeight="30.0" prefWidth="237.0" promptText="rechercher" style="-fx-background-color: rgb(225,225,225,0.3);" />
+      <Pane layoutX="235.0" layoutY="125.0" prefHeight="439.0" prefWidth="820.0">
+         <children>
+            <Label layoutX="760.0" layoutY="14.0" onMouseClicked="#btnAdd" text="+" textFill="#dadada">
+               <font>
+                  <Font name="Montserrat-Regular" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="733.0" layoutY="14.0" onMouseClicked="#btnSupp" text="-" textFill="#dadada">
+               <font>
+                  <Font name="Montserrat-Regular" size="20.0" />
+               </font>
+            </Label>
+            <TableView layoutX="14.0" layoutY="48.0" prefHeight="369.0" prefWidth="775.0" style="-fx-background-color: #0e264b;">
+               <columns>
+                  <TableColumn prefWidth="19.0" styleClass="htable" />
+                  <TableColumn prefWidth="52.0" style="-fx-background-color: white;" styleClass="htable" text="N°Vol" />
+                  <TableColumn prefWidth="115.0" style="-fx-background-color: white;" styleClass="htable" text="Responsable vol" />
+                  <TableColumn prefWidth="91.0" styleClass="htable" text="H Arriver" />
+                  <TableColumn prefWidth="83.0" styleClass="htable" text="H Depart" />
+                  <TableColumn prefWidth="90.0" styleClass="htable" text="Lieu depart" />
+                  <TableColumn minWidth="0.0" prefWidth="86.0" styleClass="htable" text="Lieu arriver" />
+                  <TableColumn prefWidth="69.0" styleClass="htable" text="N°Piste" />
+                  <TableColumn prefWidth="100.0" styleClass="htable" text="Adresse Perso..." />
+                  <TableColumn prefWidth="69.0" styleClass="htable" text="N°Avion" />
+               </columns>
+            </TableView>
+            <Label layoutX="196.0" layoutY="-8.0" text="14h 14/03/2022" textFill="#b5b3b3">
+               <font>
+                  <Font name="Montserrat-Regular" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="243.0" layoutY="108.0" text="Aujourd'hui " textFill="#dadada">
+         <font>
+            <Font name="Montserrat-Regular" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="19.0" fitWidth="19.0" layoutX="980.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchbtn.png" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="563.0" prefWidth="226.0" style="-fx-background-color: #05275a;">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="86.0" layoutX="75.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgAccount.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="19.0" layoutY="119.0" prefHeight="23.0" prefWidth="200.0" text="Ange Kano Stephane" textFill="#6cc3c0">
+               <font>
+                  <Font name="Montserrat-Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="155.0" text="Responsable decolage" textFill="#e4e4e4">
+               <font>
+                  <Font name="Montserrat-Regular" size="14.0" />
+               </font>
+            </Label>
+            <Pane layoutY="204.0" onMouseClicked="#clickBnt" prefHeight="49.0" prefWidth="226.0">
+               <children>
+                  <Label layoutX="52.0" layoutY="13.0" text="Dashbord" textFill="#6cc3c0">
+                     <font>
+                        <Font name="Montserrat-Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="-3.0" prefHeight="49.0" prefWidth="6.0" />
+               </children>
+            </Pane>
+            <Pane layoutY="266.0" onMouseClicked="#clickBnt1" prefHeight="49.0" prefWidth="226.0" styleClass="btnNav">
+               <children>
+                  <Label layoutX="52.0" layoutY="13.0" text="Liste des vols" textFill="#6cc3c0">
+                     <font>
+                        <Font name="Montserrat-Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="49.0" prefWidth="6.0" styleClass="lttBar" />
+               </children>
+            </Pane>
+            <Pane layoutX="1.0" layoutY="328.0" prefHeight="49.0" prefWidth="226.0" style="-fx-background-color: #071a37;" styleClass="btnNav">
+               <children>
+                  <Label layoutX="52.0" layoutY="13.0" text="Liste des pistes" textFill="#6cc3c0">
+                     <font>
+                        <Font name="Montserrat-Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="-3.0" prefHeight="49.0" prefWidth="6.0" style="-fx-background-color: #6cc3c0;" styleClass="lttBar" />
+               </children>
+            </Pane>
+            <Pane layoutX="1.0" layoutY="390.0" onMouseClicked="#clickBnt2" prefHeight="49.0" prefWidth="226.0" styleClass="btnNav">
+               <children>
+                  <Label layoutX="52.0" layoutY="13.0" text="Information Avion" textFill="#6cc3c0">
+                     <font>
+                        <Font name="Montserrat-Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="49.0" prefWidth="6.0" styleClass="lttBar" />
+               </children>
+            </Pane>
+            <Pane layoutY="452.0" onMouseClicked="#clickBnt3" prefHeight="49.0" prefWidth="226.0" styleClass="btnNav">
+               <children>
+                  <Label layoutX="52.0" layoutY="13.0" text="Historique" textFill="#6cc3c0">
+                     <font>
+                        <Font name="Montserrat-Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="49.0" prefWidth="6.0" styleClass="lttBar" />
+               </children>
+            </Pane>
+            <Label layoutX="25.0" layoutY="528.0" onMouseClicked="#clickLgout" text="Log out" textFill="#6cc3c0">
+               <font>
+                  <Font name="Montserrat-Regular" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
